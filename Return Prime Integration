@@ -1,0 +1,2 @@
+curl --location --request POST 'https://tw3261i6u0.execute-api.us-east-1.amazonaws.com/integrations/returnprime/register-webhook?shopUrl=test.myshopify.com' \
+--header 'x-rp-token: c41c9e1356caae4a99a7260e166c3c78f09b2be03c0b2e402575877a1105240a'
