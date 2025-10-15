@@ -1,0 +1,11 @@
+curl --location 'https://mcfsmik3g0.execute-api.us-east-1.amazonaws.com/chatbot/initCheckoutOnWhatsApp' \
+--header 'Content-Type: application/json' \
+--data '{
+    "shopUrl":"babyorgano1102.myshopify.com",
+    "active": true,
+    "CODCheckoutToggle": true,
+    "backButtonNodeId": "df977db6-1ebc-46b7-9342-222e77d5f2a8",
+    "discountConfig":{
+        "code":"ABC"
+    }
+}'
