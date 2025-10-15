@@ -1,0 +1,8 @@
+curl --location 'https://sger30v3mk.execute-api.us-east-1.amazonaws.com/razorpay/auth' \
+--header 'Content-Type: application/json' \
+--data '{
+    "shopUrl":"10feda-hh.myshopify.com",
+    "WABId": "WUDCzeWA",
+    "phoneNumber": "919024160167",
+    "redirectUri": "https://sger30v3mk.execute-api.us-east-1.amazonaws.com/razorpay/auth/redirect"
+}'
