@@ -1,0 +1,6 @@
+curl --location 'https://b3i4zxcefi.execute-api.us-east-1.amazonaws.com/chatwoot/addFacebookCommentInbox' \
+--header 'Content-Type: application/json' \
+--data '{
+    "shopUrl": "minimal-mate.myshopify.com",
+    "pageId": "17841437876058103"
+}'
