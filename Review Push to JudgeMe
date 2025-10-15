@@ -1,0 +1,5 @@
+curl --location 'https://mcfsmik3g0.execute-api.us-east-1.amazonaws.com/addJudgeMeCronJob' \
+--header 'Content-Type: application/json' \
+--data '{
+  "shopUrl": "nitishkastore.myshopify.com"
+}'
