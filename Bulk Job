@@ -1,0 +1,5 @@
+curl --location 'shopify.bitespeed.co/blackship-in.myshopify.com/testing/startOneBulkOp' \
+--header 'Content-Type: application/json' \
+--data '{
+  "jobType": "fetchCollections"
+}'
