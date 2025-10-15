@@ -1,0 +1,5 @@
+curl --location --request PUT 'https://27id174wsl.execute-api.us-east-1.amazonaws.com/prod/createOrUpdateGoogleSheet' \
+--header 'Content-Type: application/json' \
+--data '{
+    "shopUrl": "miheso-store.myshopify.com"
+}'
